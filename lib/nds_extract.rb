@@ -94,8 +94,7 @@ def movies_with_directors_set(source)
 
     arr << movies_with_director_key(name, movies)
   end
-p arr
-
+arr
 
 end
 # ----------------    End of Your Code Region --------------------

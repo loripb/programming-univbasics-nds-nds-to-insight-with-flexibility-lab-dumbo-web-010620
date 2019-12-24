@@ -50,9 +50,6 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   directors_and_movies = []
-  directors_hash   = {}
-  movie_arr        = []
-  director            = nil
 
   movies_collection.each do |movie_info|
     info = movie_with_director_name(name, movie_info)

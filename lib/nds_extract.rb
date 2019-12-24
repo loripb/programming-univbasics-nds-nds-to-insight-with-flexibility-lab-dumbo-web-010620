@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
   movies_collection.each do |movie_info|
     info = movie_with_director_name(name, movie_info)
 
-    movie_arr = info[:title]
+    movie_arr << info[:title]
 
   end
   p movie_arr

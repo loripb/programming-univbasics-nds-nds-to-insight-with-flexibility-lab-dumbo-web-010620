@@ -55,6 +55,7 @@ def movies_with_director_key(name, movies_collection)
   directors_hash[name] = movies_collection
 
  directors_movies << directors_hash
+ p directors_movies
 end
 
 

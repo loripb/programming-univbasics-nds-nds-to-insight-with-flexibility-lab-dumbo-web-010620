@@ -1,5 +1,5 @@
 # Provided, don't edit
-require 'directors_database'
+require './directors_database'
 require 'pp'
 
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],

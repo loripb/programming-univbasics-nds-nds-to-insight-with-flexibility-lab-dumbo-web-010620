@@ -53,8 +53,9 @@ def movies_with_director_key(name, movies_collection)
   directors_hash   = {}
   movie_arr        = []
 
-  movies_collection.each do |movie info|
+  movies_collection.each do |movie_info|
     info = movie_with_director_name(name, movie_info)
+    p info
   end
 end
 

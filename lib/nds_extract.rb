@@ -93,9 +93,8 @@ def movies_with_directors_set(source)
     movies = director[:movies]
 
     arr << movies_with_director_key(name, movies)
-    p arr
   end
-
+p arr
 
 
 end

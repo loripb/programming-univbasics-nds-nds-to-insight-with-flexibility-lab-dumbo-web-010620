@@ -60,7 +60,7 @@ def movies_with_director_key(name, movies_collection)
     movie_arr << info[:title]
 
   end
-  directors_hash[director] movie_arr
+  directors_hash[director] = movie_arr
 end
 
 

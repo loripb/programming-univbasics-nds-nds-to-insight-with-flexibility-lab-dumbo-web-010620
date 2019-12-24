@@ -58,8 +58,9 @@ def movies_with_director_key(name, movies_collection)
 
     directors_hash[info[:director_name]] = info[:title]
   end
-  p directors_hash
 end
+p directors_hash
+
 
 
 def gross_per_studio(collection)

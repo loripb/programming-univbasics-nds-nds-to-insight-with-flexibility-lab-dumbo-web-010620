@@ -62,6 +62,7 @@ def movies_with_director_key(name, movies_collection)
   end
   directors_hash[director] = movie_arr
   directors_and_movies << directors_hash
+  print directors_and_movies
 end
 
 

@@ -49,17 +49,13 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
-  directors_movies = []
+  directors_and_movies = []
   directors_hash   = {}
   movie_arr        = []
 
-  movies_collection.each do |movie_hash|
-    movie_arr << movie_hash[:title]
-  end
-  directors_hash[name] = movie_arr
-
- directors_movies << directors_hash
- p directors_movies
+  movies_collection.each do |movie info|
+    info = movie_with_director_name(name, movie_info)
+    p info
 end
 
 

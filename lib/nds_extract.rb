@@ -57,9 +57,11 @@ def movies_with_director_key(name, movies_collection)
     info = movie_with_director_name(name, movie_info)
 
     directors_hash[info[:director_name]] = info[:title]
+    p directors_hash
+
   end
 end
-p directors_hash
+
 
 
 

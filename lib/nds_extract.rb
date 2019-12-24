@@ -59,7 +59,7 @@ def movies_with_director_key(name, movies_collection)
     directors_and_movies << info
 
   end
-  print directors_and_movies
+  directors_and_movies
 end
 
 

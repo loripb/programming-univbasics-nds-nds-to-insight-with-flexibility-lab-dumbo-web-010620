@@ -79,9 +79,7 @@ def gross_per_studio(collection)
   collection.each do |movie|
     studio = movie[:studio]
 
-    if !s
-
-    end
+  end
 end
 
 def movies_with_directors_set(source)
@@ -102,7 +100,7 @@ def movies_with_directors_set(source)
 
     result<< movies_with_director_key(name, movies)
   end
-result
+  result
 
 end
 # ----------------    End of Your Code Region --------------------

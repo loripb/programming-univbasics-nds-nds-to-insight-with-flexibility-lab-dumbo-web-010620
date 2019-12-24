@@ -80,7 +80,7 @@ def gross_per_studio(collection)
     studio = movie[:studio]
 
     if !s
-      
+
     end
 end
 

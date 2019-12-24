@@ -56,11 +56,10 @@ def movies_with_director_key(name, movies_collection)
   movies_collection.each do |movie_info|
     info = movie_with_director_name(name, movie_info)
 
-    directors_hash[info[:director_name]] = info[:title]
-    directors_and_movies << directors_hash
+    movie_arr = info[:title]
 
   end
-  p directors_and_movies
+  p movie_arr
 end
 
 
